@@ -3,7 +3,7 @@ export enum Language {
   TYPESCRIPT = 'typescript',
   PYTHON = 'python',
   C = 'c',
-  CSHARP = "cs",
+  CSHARP = 'cs',
   CPP = 'cpp',
   BASH = 'bash',
   RUBY = 'ruby',

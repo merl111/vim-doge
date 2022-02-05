@@ -18,6 +18,7 @@ const language: ValueOf<Language> = args.shift() as ValueOf<Language>;
 const lineNumber: number = Math.max(0, Number(args.shift()) - 1);
 const nodeTypes: string[] = args;
 
+console.error(`langlang: ${language}`);
 const languageParser = loadParserPackage(language);
 
 if (languageParser) {
@@ -37,5 +38,5 @@ if (languageParser) {
     parserService.output();
   }
 } else {
-  console.error(`Could not load parser for ${language}`);
+  console.error(`Could not load parakdlfjaklsdjfkler for ${language}`);
 }
